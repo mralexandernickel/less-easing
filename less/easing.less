@@ -9,6 +9,10 @@
 @propertyDefault: all;
 @durationDefault: 700ms;
 
+//
+//  Mixins to be used inside LESS
+// ==============================
+//
 .linear(@property: @propertyDefault, @duration: @durationDefault) {
   -webkit-transition: @property @duration linear;
      -moz-transition: @property @duration linear;
@@ -242,4 +246,124 @@
       -ms-transition: @property @duration cubic-bezier(0.680, -0.550, 0.265, 1.550);
        -o-transition: @property @duration cubic-bezier(0.680, -0.550, 0.265, 1.550);
           transition: @property @duration cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+//
+//  Css Classes to be used inside HTML
+// ===================================
+//
+.linear{
+  .linear(all,700ms);
+}
+
+.ease {
+  .ease(all,700ms);
+}
+
+.easeIn {
+  .easeIn(all,700ms);
+}
+
+.easeOut {
+  .easeOut(all,700ms);
+}
+
+.easeInOut {
+  .easeInOut(all,700ms);
+}
+
+.easeInQuad {
+  .easeInQuad(all,700ms);
+}
+
+.easeInCubic {
+  .easeInCubic(all,700ms);
+}
+
+.easeInQuart {
+  .easeInQuart(all,700ms);
+}
+
+.easeInQuint {
+  .easeInQuint(all,700ms);
+}
+
+.easeInSine {
+  .easeInSine(all,700ms);
+}
+
+.easeInExpo {
+  .easeInExpo(all,700ms);
+}
+
+.easeInCirc {
+  .easeInCirc(all,700ms);
+}
+
+.easeInBack {
+  .easeInBack(all,700ms);
+}
+
+.easeOutQuad {
+  .easeOutQuad(all,700ms);
+}
+
+.easeOutCubic {
+  .easeOutCubic(all,700ms);
+}
+
+.easeOutQuart {
+  .easeOutQuart(all,700ms);
+}
+
+.easeOutQuint {
+  .easeOutQuint(all,700ms);
+}
+
+.easeOutSine {
+  .easeOutSine(all,700ms);
+}
+
+.easeOutExpo {
+  .easeOutExpo(all,700ms);
+}
+
+.easeOutCirc {
+  .easeOutCirc(all,700ms);
+}
+
+.easeOutBack {
+  .easeOutBack(all,700ms);
+}
+
+.easeInOutQuad {
+  .easeInOutQuad(all,700ms);
+}
+
+.easeInOutCubic {
+  .easeInOutCubic(all,700ms);
+}
+
+.easeInOutQuart {
+  .easeInOutQuart(all,700ms);
+}
+
+.easeInOutQuint {
+  .easeInOutQuint(all,700ms);
+}
+
+.easeInOutSine {
+  .easeInOutSine(all,700ms);
+}
+
+.easeInOutExpo {
+  .easeInOutExpo(all,700ms);
+}
+
+.easeInOutCirc {
+  .easeInOutCirc(all,700ms);
+}
+
+.easeInOutBack {
+  .easeInOutBack(all,700ms);
 }

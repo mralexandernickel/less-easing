@@ -1,0 +1,27 @@
+{
+  "name": "less-easing",
+  "version": "0.5",
+  "homepage": "https://github.com/mralexandernickel/less-easing",
+  "authors": [
+    "Alexander Nickel <mr.alexander.nickel@gmail.com>"
+  ],
+  "description": "less mixins for css-transitions",
+  "main": "src/easing.less",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "less",
+    "easing",
+    "transitions",
+    "mixins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
